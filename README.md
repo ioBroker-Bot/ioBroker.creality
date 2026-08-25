@@ -72,6 +72,9 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
 	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+- (skvarel) Fixed `currentJob.filament*` for external spool holder (`filament_rack`) when CFS is not active
+
 ### 0.4.0 (2026-08-20)
 - (skvarel) Adapter requires admin >= 7.8.23 now.
 

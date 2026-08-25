@@ -751,7 +751,7 @@ class Creality extends utils.Adapter {
 				try {
 					const cfsData = await this.moonraker.queryCfs();
 					const cst = (cfsData && cfsData.result && cfsData.result.status) || {};
-					cfs = parseCfs(cst.box, cst.filament_inventory_manager);
+					cfs = parseCfs(cst.box, cst.filament_inventory_manager, cst.filament_rack);
 				} catch (e) {
 					if (!isUnreachableError(e)) {
 						this.log.warn(`CFS poll: ${e.message}`);

@@ -34,6 +34,8 @@ creality.0.
 - `printNameShort`: truncate before first `.STL` / `.stl`
 - Filament colors: Creality often sends `0RRGGBB` → normalize to `#RRGGBB`
 - Active CFS slot: prefer `filament_inventory_manager.active_tnn` (e.g. `T1C`)
+- External spool: Moonraker `filament_rack` (`color_value` / `material_type`); `currentJob.filamentSlot` = `rack` when CFS not active
+- Material type codes (`000001` …): map known catalog ids to PLA / PETG / TPU
 
 ## Controls
 
