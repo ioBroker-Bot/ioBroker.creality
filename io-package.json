@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "creality",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "news": {
+      "0.4.1": {
+        "en": "Fixed `currentJob.filament*` for external spool holder (`filament_rack`) when CFS is not active",
+        "de": "Behoben: `currentJob.filament*` für externen Spulenhalter (`filament_rack`) bei deaktiviertem CFS.",
+        "ru": "Исправлена ошибка в `currentJob.filament*` для внешнего держателя катушки (`filament_rack`), когда CFS не активен.",
+        "pt": "Corrigido o problema com `currentJob.filament*` para o suporte de bobina externo (`filament_rack`) quando o CFS não está ativo.",
+        "nl": "De functie `currentJob.filament*` is gecorrigeerd voor de externe spoelhouder (`filament_rack`) wanneer CFS niet actief is.",
+        "fr": "Correction de `currentJob.filament*` pour le support de bobine externe (`filament_rack`) lorsque CFS n'est pas actif.",
+        "it": "Corretto `currentJob.filament*` per il portarocchetto esterno (`filament_rack`) quando CFS non è attivo",
+        "es": "Se corrigió `currentJob.filament*` para el soporte de bobina externo (`filament_rack`) cuando CFS no está activo.",
+        "pl": "Naprawiono `currentJob.filament*` dla zewnętrznego uchwytu szpuli (`filament_rack`), gdy CFS nie jest aktywny",
+        "uk": "Виправлено помилку `currentJob.filament*` для зовнішнього тримача котушки (`filament_rack`), коли CFS неактивний",
+        "zh-cn": "修复了当 CFS 未激活时，外部线轴支架 (`filament_rack`) 的 `currentJob.filament*` 问题。"
+      },
       "0.4.0": {
         "en": "Adapter requires admin >= 7.8.23 now.",
         "de": "Der Adapter benötigt jetzt Administratorrechte ab Version 7.8.23.",
@@ -80,19 +93,6 @@
         "pl": "Naprawiono konflikt TypeScript\nNaprawiono skanowanie ESLint lokalnego folderu 'backup /'\nZmodyfikowany Dependabot ignoruje główne aktualizacje TypeScript",
         "uk": "Виправлений конфлікт TypeScript\nВиправлено ESLint сканування локальної папки `backup/`\nМодифікований залежно від того, щоб ігнорувати TypeScript основні оновлення",
         "zh-cn": "固定类型脚本冲突\n固定的 ESLint 扫描本地“ 备份/” 文件夹\n已修改的依赖以忽略 TypeScript 主要更新"
-      },
-      "0.1.1": {
-        "en": "Added forum link",
-        "de": "Forum Link hinzugefügt",
-        "ru": "Добавлена ссылка на форум",
-        "pt": "Link do fórum adicionado",
-        "nl": "Forumlink toegevoegd",
-        "fr": "Ajout du lien du forum",
-        "it": "Aggiunto link del forum",
-        "es": "Añadido el foro",
-        "pl": "Dodano link forum",
-        "uk": "Додано посилання на форум",
-        "zh-cn": "添加论坛链接"
       }
     },
     "titleLang": {

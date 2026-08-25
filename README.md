@@ -72,7 +72,7 @@ If you like our work and would like to support us, we appreciate any donation.
 <!--
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.4.1 (2026-08-25)
 - (skvarel) Fixed `currentJob.filament*` for external spool holder (`filament_rack`) when CFS is not active
 
 ### 0.4.0 (2026-08-20)
@@ -91,14 +91,6 @@ If you like our work and would like to support us, we appreciate any donation.
 
 ### 0.1.4 (2026-08-02)
 - (skvarel) Fixed string state roles for repository object check
-
-### 0.1.3 (2026-07-31)
-- (skvarel) Fixed deploy CI to use Node.js 24
-- (skvarel) Fixed admin jsonConfig indentation
-- (skvarel) Modified Dependabot auto-merge to the new ioBroker workflow/action
-- (skvarel) Modified Dependabot schedule to cron
-- (skvarel) Modified TypeScript tooling to Node 22
-- (skvarel) Added Cursor rules to the repository
 
 ## Older changes
 - [CHANGELOG_OLD.md](CHANGELOG_OLD.md)
